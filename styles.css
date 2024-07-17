@@ -1,0 +1,87 @@
+head,body{
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background: 
+    linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url("images/Academia_de_Studii_Economice-1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 1);
+}
+  .description{
+    font-style: italic;
+  }
+  h1{
+    font-weight:500;
+  }
+
+  .header{
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 50px;
+  }
+  .form-group{
+    text-align: left;
+    margin: 20px auto 10px auto;
+  }
+  .info-label{
+    display: block;
+    margin-bottom: 13px;
+    font-size: 0.125rem;
+  }
+  .outter{
+    background: rgba(0, 0, 0, 0.6);
+    width: 700px;
+    display: block;
+    margin: 0px auto 50px auto;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  .info-label{
+    font-size: 25px;
+  }
+  .radio-label{
+    display: block;
+    font-size: 1.225rem;
+    margin: 12px auto;
+  }
+.input-text{
+  width: 680px;
+  padding: 10px 5px;
+  border-radius: 10px;
+  font-size: 17px;
+  box-sizing:border-box;
+}
+  button{
+    width: 680px;
+    height: 40px;
+    display: block;
+    margin: 10px auto 10px auto;
+    font:inherit;
+    background-color: rgb(255, 224, 183);
+    border: none;
+    border-radius: 10px;
+  }
+
+.radio-label{
+  margin:1px 1px 0 2px;
+}
+.checkbox-label{
+  display: block;
+  font-size: 18px;
+  
+}
+.checkbox-input{
+  margin: 0 10px 10px 0;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+}
+.radio-input{
+  margin: 0 10px 10px 0;
+  transform: scale(1.5);
+  -webkit-transform: scale(1.5); 
+}

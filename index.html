@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>freeCodeCamp Survey Form</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class = "header">
+        <h1 id="title">Student form for Faculty of Economic Cybernetics, Statistics and Computer Science (CSIE)</h1>
+        <p class ="description" id="description">By completing this form, you assist us in collecting data about our potential students.</p>
+    </div>
+
+    <div class = outter>
+
+        <form id="survey-form" method ="post" action='https://demos.com'>
+
+            <div class = "form-group">
+                <label class = "info-label" id = "name-label" for ="name">Name</label>
+                <input class =" input-text" id="name" type= "text" placeholder="Enter your name" required>
+            </div>
+
+            <div class = "form-group">
+                <label class = "info-label" id = "email-label" for ="email">Email</label>
+                <input class =" input-text" id="email" type= "email" placeholder="Enter your email" required>
+            </div>
+
+            <div class = "form-group">
+                <label class = "info-label" id="number-label" for ="age">Age (optional)</label>
+                <input class =" input-text" id="number" type= "number" placeholder="Enter your age" optional min="18" max ="110">
+            </div>
+            
+            <div class = "form-group">
+            <label class = "info-label" id="dropdown-label" for ="dropdown" >Which option best describes your current role?</label>
+            <select class ="input-text" id="dropdown" name ="dropdown">
+                <option class ="input-text" value = "">Select current role</option>
+                <option class ="input-text" value = "student">Highschool graduate</option>
+                <option class ="input-text" value = "job">Unemployed</option>
+                <option  class ="input-text" value = "not-to-say">Employed</option>
+                <option class ="input-text" value ="other">Other</option>
+            </select>
+            </div>
+
+            <div class = "form-group">
+                <label class = "info-label" id="recommend" for = "recommend" >Do you have a high school diploma?</label>
+                <label class ="radio-label"><input class = "radio-input" id="recommend" type="radio" value ="no" name="user-recommend" checked >No</label>
+                <label class ="radio-label"><input class = "radio-input" id="recommend" type="radio" value="yes" name ="user-recommend" >Yes</label>
+            </div>
+            <div class = "form-group">
+                <label class = "info-label" id="improve" >What would you like to learn the most?<label style="font-size: 0.85rem;"> (Check all that apply)</label></label>
+                <label class ="checkbox-label"><input class = "checkbox-input" name="prefer" value="front-end-projects" type="checkbox">Front-end development</label>
+                <label class ="checkbox-label"><input class = "checkbox-input" name="prefer" value="back-end-projects" type="checkbox" >Back-end development</label>
+                <label class ="checkbox-label"><input class = "checkbox-input" name="prefer" value="data-visualization" type="checkbox" >Data Visualization</label>
+                <label class ="checkbox-label"><input  class = "checkbox-input" name="prefer" value="dsa" type="checkbox" >Data Structure and Algorithms (DSA)</label>
+
+                <label class ="checkbox-label"><input  class = "checkbox-input" name="prefer" value="ml-ai" type="checkbox" >Machine Learning and Artificial Intelligence</label>
+                <label class ="checkbox-label"><input  class = "checkbox-input" name="prefer" value="db-sql" type="checkbox" >Database Management and SQL</label>
+                <label class ="checkbox-label"><input  class = "checkbox-input" name="prefer" value="econometrics" type="checkbox" >Econometrics and Economic Modeling</label>
+            </div>
+
+            <div class = "form-group">
+                <button id= "submit" class = "submit-button" type = "submit">Submit</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
