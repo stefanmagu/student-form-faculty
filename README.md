@@ -5,3 +5,6 @@ A student form for the Faculty of Economic Cybernetics, Statistics and Computer 
 Head over to the terminal and enter **start index.html**. You can also use Live Server extension.
 
 ## Preview
+![Screenshot 2024-07-17 152402](https://github.com/user-attachments/assets/c79cf15b-20c6-4026-a219-d19e34845319)
+
+![Screenshot 2024-07-17 152430](https://github.com/user-attachments/assets/2961d46d-69ef-4d81-9fd3-218804e33f20)
